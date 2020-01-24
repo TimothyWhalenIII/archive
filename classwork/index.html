@@ -1,34 +1,21 @@
 <!DOCTYPE html>
 <html>
     <head>
-
         <meta charset="UTF-8">
-        
         <title>Lucky Stars</title>
         <link type="text/css" rel="stylesheet" href="main.css">
-        
-
-
+        <script src="main.js"></script>
     </head>
     <body class="machine">
-        <script>
-            var highscore=5;
-            var coins=5;
-            //random number for random pic
-            var image=Math.floor(Math.random()*2);
-            var image2=Math.floor(Math.random()*2);
-            //get coin input
-            var inputcoin=1
-        </script>
         <h1 class="margin">
             <h1 class="fancy">Lucky Stars</h1>
         </h1>
         <h2>The Game of Luck</h2>
         <p class="link">click here for <a href="rules.html"target="_blank">rules</a></p>
-        <p class="highscore">Highscore:<div id="highscore"><script>document.getElementById("highscore")
-        .innerHTML = highscore;</script></div></p>
-        <p class="score">Coins:<div id="coins"><script>document.getElementById("coins")
-        .innerHTML = coins;</script></div></p>
+        <p class="highscore">Highscore:</p>
+        <p id="highnumber"></p>
+        <p class="score">Coins:</p>
+        <p id="number"></p>
         
         <p class="wheel">
             <img id="myImage" src="greenstar.png">
@@ -36,10 +23,9 @@
         </p>
         <form>
             <label for="coin-input">Insert Coins</label>
-            <input type="number" id="coininput">
-            <button onclick="document.getElementById('myImage')('myImage2')
-            .src='redstar.png'">Spin</button>
+            <button id="myAnchor">Spin</button>
         </form>
-        
+        <a href="hello.html"target="_blank">click me</a>
+        <script src="main.js"></script>
     </body>
 </html>

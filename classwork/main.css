@@ -41,17 +41,18 @@ label {
     color: red;
     font-size: 36px;
 }
-input {
-    width: 192px;
-    margin: 24px auto 24px auto;
-    font-size: 18px;
-}
-input[type=submit] {
-    width: 96px;
-}
 img {
     margin: 24px;
 }
 div {
     margin-left: 24px;
+}
+.big {
+    font-size: 288px;
+    background-color: yellow;
+    color: purple;
+}
+button {
+    margin-bottom: 576px;
+
 }
